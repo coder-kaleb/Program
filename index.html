@@ -4,12 +4,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>web site</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+ <header>
     <h1>
-        kaleb
+        Table Project
     </h1>
-    <h2>3</h2>
+ </header>
+ <section class="container">
+     <table>
+        
+        <tr>
+            <th>MON</th>
+            <th>TUE</th>
+            <th>WEN</th>
+            <th>THU</th>
+            <th>FRI</th>
+        </tr>
+        <tr>
+            <td>Eng</td>
+            <td>Civ</td>
+            <td>Math</td>
+            <td>His</td>
+            <td>chem</td>
+        </tr>
+        <tr>
+            <td>Bio</td>
+            <td>Phy</td>
+            <td>civ</td>
+            <td>Bio</td>
+            <td>Phy</td>
+        </tr>
+        <tr>
+            <td>chem</td>
+            <td>Eng</td>
+            <td>Bio</td>
+            <td>Math</td>
+            <td>Bio</td>
+        </tr>
+        <tr>
+            <td>Geo</td>
+            <td>Chem</td>
+            <td>Eng</td>
+            <td>Hpe</td>
+            <td>Math</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>Amh</td>
+            <td>Geo</td>
+            <td>Eng</td>
+            <td>His</td>
+        </tr>
+        <tr>
+            <td>ICT</td>
+            <td>Bio</td>
+            <td>Hpe</td>
+            <td>Phy</td>
+            <td>Civic</td>
+        </tr>
+        <tr>
+            <td>Phy</td>
+            <td>Math</td>
+            <td>Chem</td>
+            <td>Amh</td>
+            <td>Eng</td>
+        </tr>
+     </table>
+ </section>
+ <section class="wrapper">
+    <div class="reg"><h1>Register</h1></div>
+    <form target="_blank" autocomplete="on">
+        <table>
+            <tr>
+                <td>NAME</td>
+                <td>
+                    <input type="text" size="15" required>
+                </td>
+            </tr>
+            <tr>
+                <td>ADDRESS</td>
+                <td>
+                    <input list="add" value="">
+                    <datalist id="add">
+                        <option value="AddisAbab">
+                        <option value="DireDawa"></option>   
+                    </datalist>
+                </td>
+            </tr>
+            <tr>
+                <td>SCHOOL</td>
+                <td>
+                    <input type="text" size="">
+                </td>
+            </tr>
+            <tr>
+                <td>FAVORITE</td>
+                <td><select name="" id="">
+                    <option value="math">math</option>
+                    <option value="bio">bio</option>
+                    <option value="phy">phy</option>
+                    <option value="chem">chem</option>
+                    <option value="his">his</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>EMAIL</td>
+                <td><input type="email" name="" id="" placeholder="email" required>
+                </td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td><input type="password" name="" id="" placeholder="password">
+                </td>
+            </tr>
+            
+        </table>
+        <input type="button" value="submit" class="button">
+    </form>
+ </section>
+ <footer>
+    
+ </footer>
 </body>
 </html>
