@@ -7,6 +7,7 @@
     font-family: heading;
     src: url(/font/Better\ Yesterday.otf);
 }
+
 body{
     box-sizing: border-box;
     
@@ -17,20 +18,18 @@ header{
     text-align: center;
     letter-spacing: 2px;
     word-spacing: 3px;
-    
+    font-family: Spectral;
     font-family: Arial, Helvetica, sans-serif;
 } 
 
 .container{
-    background-image: url('/images/back.jpg');
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20201028/pngtree-3d-rendering-for-display-product-banner-on-website-image_443921.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     font-size: 1.5em;
 }
-
-
 .container table{
     border: 1px solid ;
     border-collapse: collapse;
@@ -59,7 +58,7 @@ header{
 }
 .wrapper{
     
-    background: url('/images/back2.png');
+    background: url('https://png.pngtree.com/background/20210715/original/pngtree-3d-rendering-for-display-product-banner-on-website-picture-image_1259855.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 155px;
@@ -78,11 +77,10 @@ header{
     border: 1px solid ;
 }
 .reg{
-    font-family: heading;
+    font-family: Rubik;
     text-align: center;
     font-size: x-large;
     font-weight: bolder;
-    text-decoration: underline;
     letter-spacing: 10px;
 }
 
@@ -138,6 +136,7 @@ button:hover{
 .footer{
     background-color: #24262b;
     padding: 70px;
+    font-family: Actor;
 }
 .row{
     display: flex;
@@ -180,4 +179,10 @@ a{
     max-width: 1170px;
     background-color: rgb(119, 118, 118);
     margin: auto;
+}
+.social-link{
+    font-size: 1.5em;
+}
+.social-link {
+    color: black;
 }
