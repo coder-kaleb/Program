@@ -6,12 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>web site</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/be309ade54.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    
  <header>
     <h1>
-        Table Project
+        school period program for students
     </h1>
+    <div class="icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
  </header>
  <section class="container">
      <table>
@@ -77,7 +82,7 @@
  <section class="wrapper">
     <div class="reg"><h1>Register</h1></div>
     <form target="_blank" autocomplete="" action="">
-        <table>
+        <table class="table_2">
             <tr>
                 <td>NAME</td>
                 <td>
@@ -86,13 +91,15 @@
                 <tr>
                     <td>GRADE</td>
                     <td>
-                        <input type="number" name="" id="" min="9" max="12">
+                        <i class="fa-sharp fa-solid fa-graduation-cap"></i>
+                        <input type="number" name="" id="" min="9" max="12" >
                     </td>
                 </tr>
             </tr>
             <tr>
                 <td>ADDRESS</td>
                 <td>
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
                     <input list="add" value="">
                     <datalist id="add">
                         <option value="AddisAbab">
@@ -102,30 +109,34 @@
             </tr>
             <tr>
                 <td>SCHOOL</td>
-                <td>
+                <td><i class="fa-sharp fa-solid fa-school-flag"></i>
                     <input type="text" size="">
                 </td>
             </tr>
             <tr>
                 <td>FAVORITE</td>
-                <td><select name="" id="">
-                    <option value="math">math</option>
-                    <option value="bio">bio</option>
-                    <option value="phy">phy</option>
-                    <option value="chem">chem</option>
-                    <option value="his">his</option>
-                </select>
+                <td>
+                    <i class="fa-sharp fa-solid fa-bookmark"></i>
+                    <select name="" id="">
+                        <option value="">milk</option>
+                        <option value="">sprite</option>
+                        <option value="">water</option>
+                    </select>
                 </td>
             </tr>
             <tr>
                 <td>EMAIL</td>
-                <td><input type="email" name="" id="" placeholder="email" required>
+                <td><i class="fa-solid fa-envelope"></i>
+                    <input type="email" name="" id="" placeholder="email" required>
                 </td>
             </tr>
             <tr>
                 <td>password</td>
-                <td><input type="password" name="" id="" placeholder="password">
-                </td>
+                <td>
+                    <i class="fa-solid fa-lock"></i>
+                    <input type="password" name="" id="" placeholder="password">
+                    
+            </td>
             </tr>
             <tr>
                 <td>Write something for Us</td>
@@ -137,8 +148,46 @@
         <input type="button" value="submit" class="button" onclick="alert('Thank you for Information')">
     </form>
  </section>
- <footer>
-    
+ <footer class="footer">
+    <div class="contain">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our servise</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FQA</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="">payment option</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">watch</a></li>
+                    <li><a href="#">bag</a></li>
+                    <li><a href="#">shoes</a></li>
+                    <li><a href="#">dress</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-link">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
  </footer>
-</body>
-</html>
